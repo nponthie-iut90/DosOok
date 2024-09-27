@@ -2,7 +2,7 @@
 
 DosOok est une application permettant d'échanger des messages via du son.  
 DosSend convertit le contenu d'un fichier .txt en son dans un fichier .wav.  
-Dos Read lit un fichier .wav créer par DosSend puis en déchiffre le message.
+DosRead lit un fichier .wav créer par DosSend puis en déchiffre le message.
 
 ## Architecture
 
