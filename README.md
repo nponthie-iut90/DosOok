@@ -12,7 +12,7 @@ DosRead lit un fichier .wav créer par DosSend puis en déchiffre le message.
 
 ## Utilisation
 
-*** Attention ! Lanceurs compatibles uniquement avec Linux ! Java doit être installé sur votre pc.***
+***Attention ! Lanceurs compatibles uniquement avec Linux ! Java doit être installé sur votre pc.***
 Pour utiliser l'application, vous devez utiliser les lanceurs .sh avec un fichier comme argument.  
 Par exemple:
 - DosSend : `/bin/bash DosSend.sh data/message.txt` *avec le message à convertir à l'intérieur du fichier
