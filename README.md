@@ -1,29 +1,46 @@
 # DosOok
 
-DosOok est une application permettant d'échanger des messages via du son.  
-DosSend convertit le contenu d'un fichier .txt en son dans un fichier .wav.  
-DosRead lit un fichier .wav créer par DosSend puis en déchiffre le message.
+DosOok est une application permettant d'échanger des messages via du son via **DosSend** et **DosRead**.  
+DosSend convertit le contenu d'un fichier *.txt* en son dans un fichier *.wav*.  
+DosRead lit un fichier *.wav* créer par DosSend puis en déchiffre le message.
 
-## Architecture
+## Sommaire
 
-- le répertoire **src** contient les sources
-- le répertoire **out** contient les sources compilées
-- le répertoire **data** contient des fichiers d'exemple pour test
+1. [Installation](#installation)
+2. [Utilisation](#utilisation)
+3. [Auteurs](#auteurs)
+4. [Satut du projet](#statut-du-projet)
+
+## Installation
+
+1. Récupérer le projet
+```bash
+git clone https://github.com/nponthie-iut90/DosOok
+cd DosOok
+```
+
+2. Lancer l'application
+    - DosSend
+      ```bash
+      /bin/bash DosSend.sh <message.txt>
+      # exemple /bin/bash DosSend.sh data/message.txt
+      ```
+    - DosRead
+      ```bash
+      /bin/bash DosRead.sh <message.wav>
+      # exemple /bin/bash DosRead.sh data/DosOok_message.wav
+      ```
 
 ## Utilisation
 
-***Attention ! Lanceurs compatibles uniquement avec Linux ! Java doit être installé sur votre pc.***
-Pour utiliser l'application, vous devez utiliser les lanceurs .sh avec un fichier comme argument.  
-Par exemple:
-- DosSend : `/bin/bash DosSend.sh data/message.txt` *avec le message à convertir à l'intérieur du fichier
-- DosRead : `/bin/bash DosRead.sh data/DosOok_message.wav`
+Créer un fichier .txt et insérez-y votre message puis exécuter DosSend comme mentionné ci-haut.
+Déchiffrer votre message avec DosRead comme mentionné ci-haut.
 
 ## Auteurs
 
-Développement:
-- Nathan PONTHIEU
-- Romain ARNOUX
+- [Nathan PONTHIEU](https://github.com/nponthie-iut90)
+- [Romain ARNOUX](https://github.com/rarnoux4-iut90)
 
 ## Statut du projet
 
-Le projet est terminé, il a lieu de fin novembre 2023 à début janvier 2024.
+Le projet est terminé, il a lieu de novembre 2023 à janvier 2024.
